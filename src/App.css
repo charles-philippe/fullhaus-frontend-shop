@@ -1,0 +1,14 @@
+
+.categoryCover {
+    background-image: url('./Media/categoryCover.png'); /* replace with your image path */
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px) { /* adjust the max-width to your desired breakpoint */
+    .categoryCover {
+      display: none;
+    }
+    .main {
+        display: inline !important;
+    }
+  }
